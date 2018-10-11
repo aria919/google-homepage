@@ -1,3 +1,16 @@
 body {
     background-color: white 
+    font-family arial, sans-serif;
+}
+.lga style {
+    height: 233px; margin-top: 89px; 
+    padding-top: 109px 
+}
+.center {
+    text-align: -webkit-center; 
+}
+img.hplogo {
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
 }
