@@ -5,6 +5,11 @@ body {
 header{
     font-size: small;
 }
+.center {
+    display: block;
+    text-align: center;
+    -webkit-appearance: none 
+}
 .content {
     width: 272px;
     height: 92px;
