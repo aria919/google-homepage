@@ -5,6 +5,32 @@ body {
 header{
     font-size: small;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li:last-child {
+    border-right: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    text-decoration: underline;
+}
 .center {
     display: block;
     text-align: center;
@@ -30,6 +56,22 @@ search {
         background-repeat: no-repeat;
         padding-left: 40px;
  }
+ .button {
+    background-color: grey;
+    border: none;
+    color: lightgrey;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: grey;
+}
 footer{
-    font-size: small;
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: absolute;
+    width: 100%;
 }
