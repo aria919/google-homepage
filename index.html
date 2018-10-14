@@ -2,28 +2,23 @@
 <html lang="en">
 <head>
     <title>Pretend Google</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-    <div class="main">
-            <a id="about" href="https://www.google.com/intl/en/about/">About</a>
-            <a id="store" href="https://store.google.com/">Store</a>
-        </div>
-        <div class="rheader">
-            <span>
-                <a id="gmail" href="https://mail.google.com/mail/?tab=wm">Gmail</a>
-                <a id="images" href="https://www.google.ca/imghp?hl=en&tab=wi">Images</a>
-            </span>
-            <div>
-                <a id="menu" href="https://www.google.ca"></a>
+    <nav id= "header">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+            <div class="right">
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="menu">Menu</a>
+                <li><a href="#">Sign in</a>  
             </div>
-            <div>
-                <a id="signin" href="https://accounts.google.com/">Sign in</a>
-            </div>
-        </div>
-    </div>
+        </ul>
+    </nav>
     <div class="content">
             <div class="logo">
                 <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
@@ -35,22 +30,17 @@
                 <input value="Google Search" type="submit" />
                 <input value="I'm Feeling Lucky" type="submit" />
             </div>
-        </div>
-        <div class="footer">
-            <div class="greybar">
-                <div class="bottomlinks">
-                    <div id="lbottom">
-                        <a id="advertising" href="https://ads.google.com/intl/en_ca/home/">Advertising</a>
-                        <a id="business" href="https://www.google.com/services/">Business</a>
-                    </div>
-                    <div id="rbottom">
-                        <a id="privacy" href="https://policies.google.com/privacy?hl=en&gl=ca">Privacy</a>
-                        <a id="terms" href="https://policies.google.com/terms?hl=en&gl=ca">Terms</a>
-                        <a id="settings" href="https://www.google.com/preferences?hl=en">Settings</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
+    </div>
+    <nav id="footer">
+        <ul>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <div class="right">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </nav>
+        </ul>
+    </div>
 </body>
 </html>
