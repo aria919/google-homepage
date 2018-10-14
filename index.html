@@ -7,52 +7,50 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-    <div class="header">
-        <ul id= "1">
-            <li><a href="about.asp">About</a></li>
-            <li><a href="store.asp">Store</a></li>
-            <li style="float:right"><a href="gmail.asp">Gmail</a></li>
-            <li style="float:right"><a href="images.asp">Images</a></li>
-          </ul>
-        <h2>I'm still working on it</h2>
+    <div class="main">
+            <a id="about" href="https://www.google.com/intl/en/about/">About</a>
+            <a id="store" href="https://store.google.com/">Store</a>
+        </div>
+        <div class="rheader">
+            <span>
+                <a id="gmail" href="https://mail.google.com/mail/?tab=wm">Gmail</a>
+                <a id="images" href="https://www.google.ca/imghp?hl=en&tab=wi">Images</a>
+            </span>
+            <div>
+                <a id="menu" href="https://www.google.ca"></a>
+            </div>
+            <div>
+                <a id="signin" href="https://accounts.google.com/">Sign in</a>
+            </div>
+        </div>
     </div>
-    <center>
     <div class="content">
-
-        <!--The image looks perfect, don't change it!-->
-
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" 
-        style="width:272px;height:92px;margin-top:89px;padding-top:109px">
-
-        <!--Don't touch the google logo image, you finally got it!-->
-    </div>
-    <div class="search">
-         <form>
-         <input type="text" name="search" placeholder="Search..">
-        </form>
-    </div>
-    <div class="spacing">
-        <button class="button">Google Search</button>
-        <button class="button">I'm Feeling Lucky</button>
-        <p>Yay, pretend Google!</p>
-        <p>Just imagine an answer and pretend it is fact.</p>
-        <p>Because that's what life is now.</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-    </center>
-    <div class="footer">
-        <ul id= "2">
-            <li><a href="advertising.asp">Advertising</a></li>
-            <li><a href="business.asp">Business</a></li>
-            <li style="float:right"><a href="privacy.asp">Privacy</a></li>
-            <li style="float:right"><a href="terms.asp">Terms</a></li>
-            <li style="float:right"><a href="settings.asp">Settings</a></li>
-        </ul>
+            <div class="logo">
+                <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            </div>
+            <div class="search">
+                <input id="search" title="Search" autocomplete="off" type="text" maxlength="2048" />
+            </div>
+            <div class="engage">
+                <input value="Google Search" type="submit" />
+                <input value="I'm Feeling Lucky" type="submit" />
+            </div>
+        </div>
+        <div class="footer">
+            <div class="greybar">
+                <div class="bottomlinks">
+                    <div id="lbottom">
+                        <a id="advertising" href="https://ads.google.com/intl/en_ca/home/">Advertising</a>
+                        <a id="business" href="https://www.google.com/services/">Business</a>
+                    </div>
+                    <div id="rbottom">
+                        <a id="privacy" href="https://policies.google.com/privacy?hl=en&gl=ca">Privacy</a>
+                        <a id="terms" href="https://policies.google.com/terms?hl=en&gl=ca">Terms</a>
+                        <a id="settings" href="https://www.google.com/preferences?hl=en">Settings</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div> 
 </body>
 </html>
